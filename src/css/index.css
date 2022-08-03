@@ -63,3 +63,8 @@
 .about__content-text {
   @apply section-text mb-0;
 }
+
+/* ===== PARTNER SECTION ===== */
+.partner__img {
+  @apply w-[130px] invert-[0.7] transition-all duration-400 hover:invert-0;
+}
