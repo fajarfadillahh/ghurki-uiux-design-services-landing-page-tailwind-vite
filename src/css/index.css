@@ -85,3 +85,26 @@
 .offer__content-title {
   @apply section-title text-[24px] mb-0;
 }
+
+/* ===== PORTFOLIO SECTION ===== */
+.portfolio__content {
+  @apply grid justify-self-center gap-12;
+}
+.portfolio__content-subtitle {
+  @apply section-subtitle;
+}
+.portfolio__content-title {
+  @apply section-title text-[24px];
+}
+.portfolio__content-text {
+  @apply section-text;
+}
+.portfolio__content-button {
+  @apply inline-flex items-end gap-2 text-[15px] text-black font-title font-semibold;
+}
+.portfolio__content-button:hover .portfolio__content-icon {
+  @apply translate-x-2;
+}
+.portfolio__content-icon {
+  @apply inline-flex text-[1.2rem] transition-all duration-400;
+}
