@@ -32,3 +32,20 @@
     @apply max-w-[1120px] w-[calc(100%-3rem)] mx-6 xl:mx-auto;
   }
 }
+
+/* ===== HEADER SECTION ===== */
+@media screen and (max-width: 767px) {
+  .header__menu {
+    @apply fixed w-[80%] top-28 left-0 right-0 mx-auto text-center p-8 bg-[#1f232b] transition-all duration-400 opacity-0 scale-y-0 origin-[0%_0%];
+  }
+}
+.header__list {
+  @apply flex flex-col gap-6;
+}
+.header__link {
+  @apply relative text-[15px] text-white font-title font-semibold after:absolute after:top-5 after:left-0 after:w-0 after:h-[2px] after:bg-white after:translate-x-0 after:duration-400 hover:after:w-full;
+}
+/* show menu */
+.header__menu.show-menu {
+  @apply opacity-100 scale-y-100;
+}
