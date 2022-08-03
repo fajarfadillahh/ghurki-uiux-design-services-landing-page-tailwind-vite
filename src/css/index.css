@@ -49,3 +49,17 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+
+/* ===== ABOUT SECTION ===== */
+.about__content {
+  @apply grid grid-cols-[0.5fr_1fr] justify-items-end items-start gap-8;
+}
+.about__content-number {
+  @apply section-title mb-0;
+}
+.about__content-title {
+  @apply section-title text-[24px] mb-4;
+}
+.about__content-text {
+  @apply section-text mb-0;
+}
