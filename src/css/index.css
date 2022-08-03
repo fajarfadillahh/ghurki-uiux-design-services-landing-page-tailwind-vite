@@ -68,3 +68,20 @@
 .partner__img {
   @apply w-[130px] invert-[0.7] transition-all duration-400 hover:invert-0;
 }
+
+/* ===== OFFER SECTION ===== */
+.offer__content {
+  @apply relative border-b-2 border-solid border-[rgba(112,116,126,0.4)] before:absolute before:-bottom-[2px] before:left-0 before:w-0 before:h-[2px] before:bg-black before:transition-all before:duration-400 before:delay-100 hover:before:w-full;
+}
+.offer__content-overlay {
+  @apply h-56 overflow-hidden;
+}
+.offer__content-img {
+  @apply w-full h-full transition-all duration-400 group-hover:scale-110;
+}
+.offer__content-data {
+  @apply py-6;
+}
+.offer__content-title {
+  @apply section-title text-[24px] mb-0;
+}
