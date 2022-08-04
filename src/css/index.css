@@ -243,3 +243,98 @@
     @apply hidden;
   }
 }
+
+/* width 968px */
+@screen lg {
+  /* header section */
+  .header__container {
+    @apply relative;
+  }
+  .header__list {
+    @apply absolute left-[50%] translate-x-[-50%] gap-8;
+  }
+
+  /* home section */
+  .home__container {
+    @apply grid-cols-2 items-center;
+  }
+  .home__data,
+  .home__img {
+    @apply w-auto;
+  }
+  .home__data {
+    @apply text-left justify-self-start;
+  }
+  .home__title {
+    @apply text-[64px];
+  }
+  .home__buttons {
+    @apply justify-start;
+  }
+
+  /* about section */
+  .about__container {
+    @apply grid-cols-2 items-start;
+  }
+  .about__data,
+  .about__group {
+    @apply w-auto;
+  }
+  .about__data {
+    @apply text-left justify-self-start;
+  }
+  .about__content {
+    @apply grid-cols-[0.4fr_1fr];
+  }
+
+  /* partner section */
+  .partner__container {
+    @apply grid-cols-[0.8fr_1fr] items-center;
+  }
+  .partner__data {
+    @apply w-auto text-left justify-self-start;
+  }
+
+  /* offer section */
+  .offer__data {
+    @apply w-auto;
+  }
+
+  /* portfolio section */
+  .portfolio__group {
+    @apply grid-cols-1;
+  }
+  .portfolio__content {
+    @apply grid-cols-[1fr_0.8fr] items-center;
+  }
+  .portfolio__content-data,
+  .portfolio__content-data {
+    @apply w-auto;
+  }
+
+  /* blog section */
+  .blog__content,
+  .blog__content-data {
+    @apply text-left justify-self-start;
+  }
+  .blog__content {
+    @apply grid-cols-[1fr_0.8fr] items-center;
+  }
+  .blog__content-data,
+  .blog__content-img {
+    @apply w-auto;
+  }
+
+  /* contact section */
+  .contact__data {
+    @apply w-[700px];
+  }
+
+  /* footer section */
+  .footer__title {
+    @apply w-[600px];
+  }
+  .footer__group {
+    @apply justify-between;
+  }
+}
