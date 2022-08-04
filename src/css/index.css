@@ -385,3 +385,8 @@
     @apply w-[900px];
   }
 }
+
+/* ===== ::SELECTION ===== */
+::selection {
+  @apply bg-orange bg-opacity-80 text-white;
+}
