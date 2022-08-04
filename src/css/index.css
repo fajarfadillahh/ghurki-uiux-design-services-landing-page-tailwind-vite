@@ -108,3 +108,37 @@
 .portfolio__content-icon {
   @apply inline-flex text-[1.2rem] transition-all duration-400;
 }
+
+/* ===== PORTFOLIO SECTION ===== */
+.testimonial__content {
+  @apply grid gap-12 py-12 px-8 bg-white transition-all duration-400;
+}
+.testimonial__content-comment {
+  @apply text-[15px] text-grey font-medium leading-text;
+}
+.testimonial__content-profile {
+  @apply flex items-center gap-3;
+}
+.testimonial__content-img {
+  @apply w-14;
+}
+.testimonial__content-name {
+  @apply text-[18px] text-black font-title font-bold mb-2;
+}
+.testimonial__content-profession {
+  @apply text-[15px] text-grey font-medium;
+}
+/* swiper active */
+.testimonial__content.swiper-slide-active {
+  @apply shadow-[13px_13px_0_rgba(255,122,0,1)];
+}
+/* swiper pagination */
+.testimonial__container .swiper-pagination {
+  position: initial;
+}
+.testimonial__container .swiper-pagination-bullet {
+  @apply w-2 h-2 bg-white bg-opacity-80 transition-all duration-400;
+}
+.testimonial__container .swiper-pagination-bullet-active {
+  @apply w-8 h-2 bg-orange rounded-full;
+}
