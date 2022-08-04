@@ -224,3 +224,22 @@
     @apply h-[270px];
   }
 }
+
+/* width 767px */
+@screen md {
+  .header__menu {
+    @apply flex items-center gap-6;
+  }
+  .header__list {
+    @apply flex-row;
+  }
+  .header__link {
+    @apply text-black after:bg-black;
+  }
+  .header__button {
+    @apply mt-0;
+  }
+  .header__toggle {
+    @apply hidden;
+  }
+}
