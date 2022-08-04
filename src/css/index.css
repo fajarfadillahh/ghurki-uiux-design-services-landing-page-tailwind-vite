@@ -162,3 +162,26 @@
 .scrollup.scroll-action {
   @apply bottom-12;
 }
+
+/* ==== MEDIA QUERIES ===== */
+/* width 480px */
+@screen xs {
+  .home__data,
+  .about__data,
+  .about__group,
+  .partner__data,
+  .offer__data,
+  .portfolio__content-data,
+  .testimonial__data,
+  .blog__data,
+  .blog__content-data,
+  .contact__data {
+    @apply w-[400px];
+  }
+
+  .home__img,
+  .portfolio__content-img,
+  .blog__content-img {
+    @apply w-[400px];
+  }
+}
